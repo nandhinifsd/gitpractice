@@ -1,3 +1,8 @@
 Files staged using add
 commit id c6fa07
 Files changed after staged
+second commit id:ff8e66b
+Git commands added
+Favourite courses added
+third commit id: 85ba7f0
+Favourite course changed.
