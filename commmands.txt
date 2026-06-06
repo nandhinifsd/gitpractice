@@ -1,20 +1,37 @@
 //commands
-cd mkdir ls touch
+cd -change directory 
+mkdir -create new directory 
+ls- lists the files and folder in current directory 
+ls-a lists all files including hidden files
+touch-creates a new file
 
 git commands
-git init
-git status
-git log
-git add filename or git add .
-git config --global user.name "username"
-git config --global user.email "email id"
-git rm "staged-filename"
-git commit -m
-git branch -m branchname
-git branchgit switch
-git checkout
-git remote add origin url
-git push -u origin main
-git switch
-git diff
-git clone
+git init -
+initialises the git into current working directory. Adds ".git" hidden file
+
+git status- gives status of the staged files, modified files unstaged files. any files that aren't commited.
+git log- gives the details of commits made so far with commit id date and time
+
+git add filename or git add .- adds the unstaged or modified file to staging area where the files get tracked
+git commit -m "meaningful message" -commits the staged file with message regarding the changes made
+git rm "staged-filename"-removes the file from staging area. once removed the file will not be tracked.
+
+git config --global user.name "username" - connect the git bash in pc with the github account online with user name
+git config --global user.email "email id" - connect the git bash in pc with the github account online with email.
+
+
+git branch -gives details about current branch
+git branch -m branchname -renames the current branch name
+git switch branchname- switches from current branch to branch specified
+git checkout branchname/commit id -checkouts to the specified branch name
+
+
+git remote add urlid url- add the url of the repository where the file has to be stored online
+git push -u origin main- push the code into the online repository from local working directory
+
+git diff tells the difference between files that havent yet been staged for commit
+git diff --staged tells the changes that are staged but havent yet beedn commited
+git diff brachname1 branchname2 tells the differnce between the 2 branches specified
+
+
+git clone <repository-url>  downloads the exact existing copy of remote github repository on the current folder in the git bash of your pc
