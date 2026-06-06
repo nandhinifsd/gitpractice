@@ -1,0 +1,20 @@
+//commands
+cd mkdir ls touch
+
+git commands
+git init
+git status
+git log
+git add filename or git add .
+git config --global user.name "username"
+git config --global user.email "email id"
+git rm "staged-filename"
+git commit -m
+git branch -m branchname
+git branchgit switch
+git checkout
+git remote add origin url
+git push -u origin main
+git switch
+git diff
+git clone

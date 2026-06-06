@@ -1,1 +1,3 @@
 Files staged using add
+commit id c6fa07
+Files changed after staged
