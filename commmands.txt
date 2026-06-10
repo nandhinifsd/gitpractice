@@ -8,7 +8,7 @@ touch-creates a new file
 git commands
 git init -
 initialises the git into current working directory. Adds ".git" hidden file
-git rm -rf.git -delete connection of git from current folder
+rm -rf.git -delete connection of git from current folder
 
 git status- gives status of the staged files, modified files unstaged files. any files that aren't commited.
 git log- gives the details of commits made so far with commit id date and time
