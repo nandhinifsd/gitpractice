@@ -8,6 +8,7 @@ touch-creates a new file
 git commands
 git init -
 initialises the git into current working directory. Adds ".git" hidden file
+git rm -rf.git -delete connection of git from current folder
 
 git status- gives status of the staged files, modified files unstaged files. any files that aren't commited.
 git log- gives the details of commits made so far with commit id date and time
@@ -18,6 +19,7 @@ git rm "staged-filename"-removes the file from staging area. once removed the fi
 
 git config --global user.name "username" - connect the git bash in pc with the github account online with user name
 git config --global user.email "email id" - connect the git bash in pc with the github account online with email.
+git config -l --gives the details of username and id connected with git
 
 
 git branch -gives details about current branch
